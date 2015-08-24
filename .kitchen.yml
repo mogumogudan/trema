@@ -2,7 +2,7 @@
 driver:
   name: vagrant
 
-provisioner;
+provisioner:
   name: chef_solo
 
 platforms:
