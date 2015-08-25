@@ -9,8 +9,8 @@ platforms:
 - name: ubuntu-12.04
   driver_config:
     provider: lxc
-    box: precise-server-cloudimg-i386-vagrant-disk1
-    box_url: https://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-i386-vagrant-disk1.box
+    box: ubuntu-12.04-amd64-vbox
+    box_url: https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-12.04-amd64-vbox.box
 
 suites:
 - name: default
