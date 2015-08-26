@@ -9,8 +9,8 @@ platforms:
 - name: ubuntu-12.04
   driver_config:
     provider: lxc
-    box: vagrant-lxc-Centos-6.5-x86_64-ja
-    box_url: https://dl.dropboxusercontent.com/u/428597/vagrant_boxes/vagrant-lxc-Centos-6.5-x86_64-ja.box
+    box: ubuntu-12.04-amd64-vbox
+    box_url: https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-12.04-amd64-vbox.box
 
 suites:
 - name: default
