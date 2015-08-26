@@ -6,7 +6,7 @@ provisioner:
   name: chef_solo
 
 platforms:
-- name: ubuntu-12.04
+- name: Centos-LXC-6.5
   driver_config:
     provider: lxc
     box: vagrant-lxc-Centos-6.5-x86_64-ja
